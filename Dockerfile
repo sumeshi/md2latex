@@ -8,6 +8,8 @@ RUN apt install -y pandoc
 
 # installing latex
 RUN apt install -y texlive-lang-cjk xdvik-ja
+
+ENV DEBIAN_FRONTEND=noninteractive
 RUN apt install -y texlive-fonts-recommended texlive-fonts-extra
 
 # installing node.js
