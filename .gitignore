@@ -1,3 +1,6 @@
+**/*.log
+**/*.aux
 **/*.tex
-**/*.pdf
+**/*.dvi
+# **/*.pdf
 node_modules
