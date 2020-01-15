@@ -2,7 +2,8 @@ version: '3.7'
 
 services:
     latex:
-        build: .
+        # build: .
+        image: sumeshi/md2latex:latest
         volumes:
             - '.:/opt'
         working_dir: /opt

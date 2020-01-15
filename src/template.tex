@@ -1,0 +1,22 @@
+\documentclass[a4paper]{jsarticle}
+
+\usepackage{lmodern}
+\usepackage{titlesec}
+\titleformat*{\section}{\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+\titleformat*{\subsubsection}{\itshape\bfseries}
+
+\title{Build a \LaTeX\ Document with Docker}
+\author{Jon Due}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    Dockerを用いて, MarkDownから\LaTeX\ 文書のビルドが可能です. 日本語にも対応しています.
+    また, MarkDownから\LaTeX\ への変換にはpandocを使用しています.
+\end{abstract}
+
+\include{main}
+    
+\end{document}

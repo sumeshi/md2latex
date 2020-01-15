@@ -1,6 +1,6 @@
-**/*.log
-**/*.aux
-**/*.tex
-**/*.dvi
-# **/*.pdf
+dist/*.log
+dist/*.aux
+dist/*.tex
+dist/*.dvi
+dist/*.pdf
 node_modules
