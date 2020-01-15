@@ -1,0 +1,21 @@
+{
+  "name": "md2latex",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-exec": "^4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.4"
+  }
+}
